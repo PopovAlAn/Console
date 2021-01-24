@@ -8,6 +8,7 @@ import com.command.console.impl.ExitCommand;
 import com.command.console.impl.HelpCommand;
 import com.command.console.impl.ListFilesCommand;
 import com.command.console.impl.MoveFileCommand;
+import com.command.console.impl.RenameFileCommand;
 import com.command.console.impl.UnzipCommand;
 import com.command.console.impl.ZipCommand;
 
@@ -37,6 +38,7 @@ public class CommandProcessor {
         commands.put("HELP", new HelpCommand());
         commands.put("ZIP", new ZipCommand());
         commands.put("UNZIP", new UnzipCommand());
+        commands.put("RENAME", new RenameFileCommand());
     }
 
     /**
