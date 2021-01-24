@@ -5,6 +5,7 @@ import com.command.console.impl.CreateDirectoryCommand;
 import com.command.console.impl.CreateFileCommand;
 import com.command.console.impl.DeleteCommand;
 import com.command.console.impl.ExitCommand;
+import com.command.console.impl.HelpCommand;
 import com.command.console.impl.ListFilesCommand;
 import com.command.console.impl.MoveFileCommand;
 
@@ -32,6 +33,7 @@ public class CommandProcessor {
         commands.put("CP", new CopyFileCommand());
         commands.put("EXIT", new ExitCommand());
         commands.put("RM", new DeleteCommand());
+        commands.put("HELP", new HelpCommand());
     }
 
     /**
