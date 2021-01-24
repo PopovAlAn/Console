@@ -22,7 +22,7 @@ public class Launcher {
         CommandProcessor cp = CommandProcessor.INSTANCE;
         System.out.println("Nice to see you!");
         System.out.println();
-       
+        System.out.println("For more information type \"help\"");
         System.out.println("For exit type \"exit\"");
         System.out.println();
         try (BufferedReader cmd = new BufferedReader(new InputStreamReader(System.in))) {
