@@ -8,7 +8,7 @@ import com.command.console.impl.ExitCommand;
 import com.command.console.impl.HelpCommand;
 import com.command.console.impl.ListFilesCommand;
 import com.command.console.impl.MoveFileCommand;
-
+import com.command.console.impl.ZipCommand;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -34,6 +34,7 @@ public class CommandProcessor {
         commands.put("EXIT", new ExitCommand());
         commands.put("RM", new DeleteCommand());
         commands.put("HELP", new HelpCommand());
+        commands.put("ZIP", new ZipCommand());
     }
 
     /**
