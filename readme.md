@@ -7,11 +7,6 @@ For exit type "exit"
 
 ### **Commands**:
 
-##### RENAME
-_Renaming a file._
-###### SYNOPSIS
-    rename[file name] [new name] - renaming file in current directory
-    rename [path/file name] [path/new name] - renaming file in target directory
 
 ##### ZIP
 _Zipping a file/directory._
