@@ -6,7 +6,6 @@ out/
 logs/
 wrapper/
 lib/
-node_modules/
 gradlew*
 .vscode/
 bin/
