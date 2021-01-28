@@ -7,6 +7,7 @@ For exit type "exit"
 
 ### **Commands**:
 
+
 ##### ZIP
 _Zipping a file/directory._
 ###### SYNOPSIS

@@ -1,0 +1,6 @@
+[submodule "WorldHellp"]
+	path = WorldHellp
+	url = https://github.com/PopovAlAn/WorldHellp.git
+[submodule "HelloWorld"]
+	path = HelloWorld
+	url = https://github.com/PopovAlAn/HelloWorld.git
